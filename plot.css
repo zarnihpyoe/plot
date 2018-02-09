@@ -1,0 +1,28 @@
+/* outter grid lines */
+.grid path {
+  /* opacity: 0.1; */
+  display: none;
+}
+/* grid lines */
+.grid .tick line {
+  opacity: 0.2;
+  stroke: #fff;
+}
+.grid .tick text {
+  opacity: 0.5;
+  fill: #fff;
+}
+
+/* axis */
+.axis path {
+  stroke: #fff;
+  opacity: 0.3;
+}
+
+/* graph */
+.fn {
+  stroke: lightskyblue;
+  fill: none;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
